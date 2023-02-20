@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         DEVICE: [opi5]
-        EDITION: [gnome,kde-plasma,mate,minimal,sway,xfce]
+        EDITION: [minimal]
         BRANCH: [stable]
     steps:
       -
